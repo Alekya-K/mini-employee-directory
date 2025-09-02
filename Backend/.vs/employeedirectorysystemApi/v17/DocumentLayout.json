@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\sampleform\\employeedirectorysystemApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC55438A-77B4-4832-971C-57AF31024712}|employeedirectorysystemApi\\employeedirectorysystemApi.csproj|e:\\sampleform\\employeedirectorysystemapi\\employeedirectorysystemapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC55438A-77B4-4832-971C-57AF31024712}|employeedirectorysystemApi\\employeedirectorysystemApi.csproj|solutionrelative:employeedirectorysystemapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC55438A-77B4-4832-971C-57AF31024712}|employeedirectorysystemApi\\employeedirectorysystemApi.csproj|e:\\sampleform\\employeedirectorysystemapi\\employeedirectorysystemapi\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC55438A-77B4-4832-971C-57AF31024712}|employeedirectorysystemApi\\employeedirectorysystemApi.csproj|solutionrelative:employeedirectorysystemapi\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC55438A-77B4-4832-971C-57AF31024712}|employeedirectorysystemApi\\employeedirectorysystemApi.csproj|e:\\sampleform\\employeedirectorysystemapi\\employeedirectorysystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC55438A-77B4-4832-971C-57AF31024712}|employeedirectorysystemApi\\employeedirectorysystemApi.csproj|solutionrelative:employeedirectorysystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "employeeDto.cs",
+              "DocumentMoniker": "E:\\sampleform\\employeedirectorysystemApi\\employeedirectorysystemApi\\Models\\employeeDto.cs",
+              "RelativeDocumentMoniker": "employeedirectorysystemApi\\Models\\employeeDto.cs",
+              "ToolTip": "E:\\sampleform\\employeedirectorysystemApi\\employeedirectorysystemApi\\Models\\employeeDto.cs",
+              "RelativeToolTip": "employeedirectorysystemApi\\Models\\employeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T11:30:28.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\sampleform\\employeedirectorysystemApi\\employeedirectorysystemApi\\Program.cs",
+              "RelativeDocumentMoniker": "employeedirectorysystemApi\\Program.cs",
+              "ToolTip": "E:\\sampleform\\employeedirectorysystemApi\\employeedirectorysystemApi\\Program.cs",
+              "RelativeToolTip": "employeedirectorysystemApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T07:02:50.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\sampleform\\employeedirectorysystemApi\\employeedirectorysystemApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "employeedirectorysystemApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\sampleform\\employeedirectorysystemApi\\employeedirectorysystemApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "employeedirectorysystemApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T06:24:50.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
