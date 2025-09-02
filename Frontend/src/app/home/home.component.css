@@ -1,0 +1,14 @@
+.home-container {
+  padding: 50px;
+  background-color: #f3aaaa;
+   min-height: 100vh;  
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+
+

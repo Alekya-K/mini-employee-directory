@@ -1,0 +1,68 @@
+<div class="mx-3 my-2">
+  <h1>Departments</h1>
+</div>
+
+<div class="row mx-3 form-section">
+  <form #deptForm="ngForm" class="row gx-3 gy-2 align-items-center" (ngSubmit)="onSubmit()" novalidate>
+
+    <div class="row mb-2">
+      <div class="col-sm-4"><label for="deptId">Department Id</label></div>
+      <div class="col-sm-4"><label for="deptName">Department Name</label></div>
+      <div class="col-sm-4"><label for="deptLocation">Location</label></div>
+    </div>
+
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="deptId" placeholder="001"
+              [(ngModel)]="departmentData.departmentId"
+              [disabled]="disableDepartmentIdInput" name="departmentId" required>
+    </div>
+
+    <div class="col-sm-4">
+  <select class="form-select" id="deptName"
+          [(ngModel)]="departmentData.departmentName" name="departmentName" required>
+    <option value="" disabled selected>Select Department</option>
+    <option value="HR">HR</option>
+    <option value="IT">IT</option>
+    <option value="Finance">Finance</option>
+    <option value="Sales">Sales</option>
+    <option value="Marketing">Marketing</option>
+  </select>
+</div>
+
+
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="deptLocation" placeholder="place"
+             [(ngModel)]="departmentData.location" name="location" required>
+    </div>
+
+    <div class="col-auto mt-3">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
+
+<div class="output-section row mx-3 py-5">
+  <h5>Department Details</h5>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Department Id</th>
+        <th scope="col">Department Name</th>
+        <th scope="col">Location</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr *ngFor="let department of departmentDetails">
+        <th scope="row">{{department.departmentId}}</th>
+         <td>{{department.departmentName}}</td>
+         <td>{{department.location}}</td>
+        <td>
+          <button type="button" class="btn btn-primary" (click)="depFormForEdit(department)">Edit</button>
+          <button type="button" class="btn btn-danger mx-2" (click)="openConfirmDialog(department.departmentId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

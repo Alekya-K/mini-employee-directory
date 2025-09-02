@@ -1,0 +1,41 @@
+<body>
+  <div class="row g-3 mx-3 py-3 form-section">
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary" (click)="openEmployeeDialog()"> Add a new Employee </button>
+     
+    </div>
+    </div>
+  <div class="row mx-3 table-section">
+    <h5>Employee Details</h5>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Employee Id</th>
+          <th scope="col"> FullName</th>
+          <th scope="col"> Department</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Hire Date</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employeeDetails">
+          
+          <th scope="row">{{employee.employeeId}}</th>
+          <td>{{employee.fullName}} </td>
+          <td>{{employee.department}}</td>
+          <td>{{employee.email}}</td>
+          <td>{{employee.phone}}</td> 
+           <td>{{employee.hireDate}}</td> 
+          <td> 
+            <button type="button" class="btn btn-primary" (click)="openEditDialogBox(employee)" >Edit</button> 
+            
+            <button type="button" class="btn btn-danger mx-2" (click)="openConfirmDialog(employee.employeeId)" >Delete</button>
+            <!--  -->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>

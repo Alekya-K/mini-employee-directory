@@ -1,0 +1,48 @@
+<body>
+     <div class="modal-content">
+   
+    <div class="row mx-3 py-3 ">
+        <h5> Employee </h5>
+        
+        <form (ngSubmit)="onSubmit()" novalidate>
+            <div class="row py-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Employee Id" aria-label="Employee Id" name="employeeId" [(ngModel)]="employeeDetails.employeeId" [disabled]=" disableEmployeeIdInput ">
+                    <!-- -->
+                </div>
+                <div class="col">
+                    <input type="date" class="form-control" placeholder="Hire Date" aria-label="Hire Date" name="hireDate" [(ngModel)]="employeeDetails.hireDate">
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="FullName" aria-label="Full Name" name="name" [(ngModel)]="employeeDetails.fullName">
+                </div>
+                <div class="col">
+  <select class="form-select"
+          [(ngModel)]="employeeDetails.department"
+          name="department" required>
+    <option value="" disabled selected>Select Department</option>
+    <option value="HR">HR</option>
+    <option value="IT">IT</option>
+    <option value="Finance">Finance</option>
+    <option value="Sales">Sales</option>
+    <option value="Marketing">Marketing</option>
+  </select>
+</div>
+            </div>
+            <div class="row py-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number" name="phone" [(ngModel)]="employeeDetails.phone">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" name="email" [(ngModel)]="employeeDetails.email">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary"> {{btnText}} </button>
+        </form>
+    </div>
+    </div>
+
+
+</body>

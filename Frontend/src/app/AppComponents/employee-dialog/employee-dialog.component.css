@@ -1,0 +1,9 @@
+
+
+::ng-deep .modal-content
+{
+  background-color: #cf5e71;   
+  color: white; 
+    border-radius: 12px;
+          
+}
